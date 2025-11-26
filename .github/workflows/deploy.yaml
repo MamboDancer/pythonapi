@@ -27,3 +27,6 @@ jobs:
       - name: Push Docker image
         run: docker push mambodancer/pythonapi:latest
 
+      - name: Trigger Render Deploy
+        run: |
+          curl -X POST https://api.render.com/deploy/srv-d4ji32gbdp1s73fvbejg?key=ZmwRhWe5ak8
