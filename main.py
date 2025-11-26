@@ -14,4 +14,4 @@ app = FastAPI()
 
 @app.get("/")
 def get_random_number():
-    return {"asdasd": random.randint(1, 100)}
+    return {"qweqweqwe": random.randint(1, 100)}
