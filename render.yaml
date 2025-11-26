@@ -6,7 +6,7 @@ projects:
     services:
     - type: web
       name: pythonapi
-      runtime: image
+      runtime: docker
       image:
         url: docker.io/mambodancer/pythonapi:latest
       plan: free
