@@ -14,4 +14,4 @@ app = FastAPI()
 
 @app.get("/")
 def get_random_number():
-    return {"numerisnotnumber": random.randint(1, 100)}
+    return {"numerisnotnumbeeeer": random.randint(1, 100)}
