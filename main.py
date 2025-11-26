@@ -18,19 +18,6 @@ def get_random_number():
 
 
 """
-      # Логін у Docker Hub
-      - name: Log in to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-
-      # Build Docker image
-      - name: Build Docker image
-        run: docker build -t mambodancer/pythonapi:latest .
-
-      # Push Docker image
-      - name: Push Docker image
-        run: docker push mambodancer/pythonapi:latest
+      
 
 """
